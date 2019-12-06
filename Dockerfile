@@ -10,7 +10,7 @@ RUN npm install -g npm@6.10.3
 COPY package*.json ./
 
 # run npm as continuous integration (Fetches dependencies every build.)
-RUN npm ci
+RUN npm install
 
 COPY . .
 
