@@ -1,2 +1,2 @@
 # landing-page
-Node.js landing page container for openshift
+Node.js express landing page container for openshift
