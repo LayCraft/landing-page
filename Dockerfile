@@ -15,6 +15,6 @@ RUN npm install
 COPY . .
 
 # ng serve (4200)
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npm", "start"]
