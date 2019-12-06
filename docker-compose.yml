@@ -1,0 +1,11 @@
+version: "3.6"
+services:
+  embc-app-frontend:
+    build: .
+    image: landing-page
+    container_name: landing-page
+    command: "npm start -- --poll=500"
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
