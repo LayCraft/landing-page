@@ -1,1 +1,19 @@
+@font-face {
+	font-family: Myriad-Pro;
+	src: 
+		url('/fonts/MyriadWebPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
+*{
+	font-family: Myriad-Pro, Calibri, Arial, sans serif;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit:scale-down;
+
+}
+.card {
+  background-color: bg-light-blue;
+}

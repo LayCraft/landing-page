@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	res.render('index', { title: 'EMBC Landing Page' });
+	res.render('index', { title: 'Emergency Support Services' });
 });
 
 module.exports = router;
